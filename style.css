@@ -1,0 +1,178 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a.ativo {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.destaque {
+    margin-bottom: 30px;
+}
+
+.destaque h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.destaque article {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.destaque article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.destaque article h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.destaque article p {
+    color: #666;
+}
+
+.destaque article a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.destaque article a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.catalogo h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.catalogo .livro {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.catalogo .livro img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.catalogo .livro h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.catalogo .livro p {
+    color: #666;
+}
+
+.catalogo .livro a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.catalogo .livro a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos específicos para cada categoria */
+
+.catalogo .livro.romance {
+    border-color: #e74c3c; /* Vermelho */
+}
+
+.catalogo .livro.aventura {
+    border-color: #3498db; /* Azul */
+}
+
+.catalogo .livro.ficcao-cientifica {
+    border-color: #2ecc71; /* Verde */
+}
+
+.catalogo .livro.terror {
+    border-color: #9b59b6; /* Roxo */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

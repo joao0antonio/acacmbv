@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblion - Biblioteca Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Biblion - Biblioteca Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="categoria-todos" class="ativo">Todos</a></li>
+                <li><a href="#" id="categoria-romance">Romance</a></li>
+                <li><a href="#" id="categoria-aventura">Aventura</a></li>
+                <li><a href="#" id="categoria-ficcao-cientifica">Ficção Científica</a></li>
+                <li><a href="#" id="categoria-terror">Terror</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destaque">
+            <h2>Livro em Destaque</h2>
+            <article>
+                <img src="livro_destaque.jpg" alt="Capa do livro em destaque">
+                <h3>Título do Livro</h3>
+                <p>Descrição breve do livro em destaque...</p>
+                <a href="#">Ver mais</a>
+            </article>
+        </section>
+
+        <section id="todos" class="catalogo">
+            <h2>Catálogo de Livros - Todos</h2>
+
+            <!-- Livros de Romance -->
+            <div class="livro romance">
+                <img src="romance1.jpg" alt="Capa do Livro de Romance 1">
+                <h3>Título do Livro de Romance 1</h3>
+                <p>Descrição breve do Livro de Romance 1...</p>
+                <p class="preco">R$ 25,00</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro romance">
+                <img src="romance2.jpg" alt="Capa do Livro de Romance 2">
+                <h3>Título do Livro de Romance 2</h3>
+                <p>Descrição breve do Livro de Romance 2...</p>
+                <p class="preco">R$ 30,00</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro romance">
+                <img src="romance3.jpg" alt="Capa do Livro de Romance 3">
+                <h3>Título do Livro de Romance 3</h3>
+                <p>Descrição breve do Livro de Romance 3...</p>
+                <p class="preco">R$ 28,50</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro romance">
+                <img src="romance4.jpg" alt="Capa do Livro de Romance 4">
+                <h3>Título do Livro de Romance 4</h3>
+                <p>Descrição breve do Livro de Romance 4...</p>
+                <p class="preco">R$ 32,00</p>
+                <a href="#">Ver mais</a>
+            </div>
+
+            <!-- Livros de Aventura -->
+            <div class="livro aventura">
+                <img src="aventura1.jpg" alt="Capa do Livro de Aventura 1">
+                <h3>Título do Livro de Aventura 1</h3>
+                <p>Descrição breve do Livro de Aventura 1...</p>
+                <p class="preco">R$ 27,00</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro aventura">
+                <img src="aventura2.jpg" alt="Capa do Livro de Aventura 2">
+                <h3>Título do Livro de Aventura 2</h3>
+                <p>Descrição breve do Livro de Aventura 2...</p>
+                <p class="preco">R$ 29,50</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro aventura">
+                <img src="aventura3.jpg" alt="Capa do Livro de Aventura 3">
+                <h3>Título do Livro de Aventura 3</h3>
+                <p>Descrição breve do Livro de Aventura 3...</p>
+                <p class="preco">R$ 31,20</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro aventura">
+                <img src="aventura4.jpg" alt="Capa do Livro de Aventura 4">
+                <h3>Título do Livro de Aventura 4</h3>
+                <p>Descrição breve do Livro de Aventura 4...</p>
+                <p class="preco">R$ 26,80</p>
+                <a href="#">Ver mais</a>
+            </div>
+
+            <!-- Livros de Ficção Científica -->
+            <div class="livro ficcao-cientifica">
+                <img src="ficcao1.jpg" alt="Capa do Livro de Ficção Científica 1">
+                <h3>Título do Livro de Ficção Científica 1</h3>
+                <p>Descrição breve do Livro de Ficção Científica 1...</p>
+                <p class="preco">R$ 35,00</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro ficcao-cientifica">
+                <img src="ficcao2.jpg" alt="Capa do Livro de Ficção Científica 2">
+                <h3>Título do Livro de Ficção Científica 2</h3>
+                <p>Descrição breve do Livro de Ficção Científica 2...</p>
+                <p class="preco">R$ 33,50</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro ficcao-cientifica">
+                <img src="ficcao3.jpg" alt="Capa do Livro de Ficção Científica 3">
+                <h3>Título do Livro de Ficção Científica 3</h3>
+                <p>Descrição breve do Livro de Ficção Científica 3...</p>
+                <p class="preco">R$ 37,80</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro ficcao-cientifica">
+                <img src="ficcao4.jpg" alt="Capa do Livro de Ficção Científica 4">
+                <h3>Título do Livro de Ficção Científica 4</h3>
+                <p>Descrição breve do Livro de Ficção Científica 4...</p>
+                <p class="preco">R$ 32,50</p>
+                <a href="#">Ver mais</a>
+            </div>
+
+            <!-- Livros de Terror -->
+            <div class="livro terror">
+                <img src="terror1.jpg" alt="Capa do Livro de Terror 1">
+                <h3>Título do Livro de Terror 1</h3>
+                <p>Descrição breve do Livro de Terror 1...</p>
+                <p class="preco">R$ 29,00</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro terror">
+                <img src="terror2.jpg" alt="Capa do Livro de Terror 2">
+                <h3>Título do Livro de Terror 2</h3>
+                <p>Descrição breve do Livro de Terror 2...</p>
+                <p class="preco">R$ 27,50</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro terror">
+                <img src="terror3.jpg" alt="Capa do Livro de Terror 3">
+                <h3>Título do Livro de Terror 3</h3>
+                <p>Descrição breve do Livro de Terror 3...</p>
+                <p class="preco">R$ 30,80</p>
+                <a href="#">Ver mais</a>
+            </div>
+            <div class="livro terror">
+                <img src="terror4.jpg" alt="Capa do Livro de Terror 4">
+                <h3>Título do Livro de Terror 4</h3>
+                <p>Descrição breve do Livro de Terror 4...</p>
+                <p class="preco">R$ 28,90</p>
+                <a href="#">Ver mais</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Biblion - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Biblion - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Captura todos os links de categorias
+            const linksCategorias = document.querySelectorAll('nav ul li a');
+
+            // Itera sobre cada link de categoria
+            linksCategorias.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Remove a classe 'ativo' de todos os links
+                    linksCategorias.forEach(function(l) {
+                        l.classList.remove('ativo');
+                    });
+
+                    // Adiciona a classe 'ativo' ao link clicado
+                    this.classList.add('ativo');
+
+                    // Esconde todos os catálogos de livros
+                    const todosCatalogos = document.querySelectorAll('.catalogo');
+                    todosCatalogos.forEach(function(catalogo) {
+                        catalogo.style.display = 'none';
+                    });
+
+                    // Mostra o catálogo de livros da categoria correspondente
+                    const idCategoria = this.getAttribute('id').replace('categoria-', '');
+                    document.getElementById(idCategoria).style.display = 'block';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
