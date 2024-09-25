@@ -21,11 +21,11 @@ h1 {
     gap: 20px; /* Espaço entre os cards */
     padding: 20px; /* Espaçamento interno da grade */
     width: 100%; /* Largura total para melhor alinhamento */
-    max-width: 800px; /* Largura máxima para controle do layout */
+    max-width: 1200px; /* Largura máxima para controle do layout */
 }
 
 .card {
-    width: 100%; /* Preenchendo o espaço disponível */
+    width: 500px; /* Aumentado para 500px */
     height: 150px;
     perspective: 1000px; /* Para efeito 3D */
     cursor: pointer; /* Indica que é clicável */
@@ -66,4 +66,3 @@ h1 {
     background-color: #f0f0f0;
     transform: rotateY(180deg); /* Vira a parte de trás */
 }
-a
