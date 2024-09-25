@@ -17,7 +17,7 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsivo */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
     gap: 20px;
     padding: 20px; /* Espaçamento interno da grade */
 }
@@ -64,3 +64,4 @@ h1 {
     background-color: #f0f0f0;
     transform: rotateY(180deg); /* Vira a parte de trás */
 }
+a
