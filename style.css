@@ -29,7 +29,6 @@ h1 {
     margin: 0; /* Remove margens padrões */
 }
 
-
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
@@ -78,6 +77,6 @@ h1 {
 }
 
 .back {
-    background-color: #f0f0f0;
+    background: linear-gradient(90deg, #00f, #00bfff); /* Degradê de azul para azul claro */
     transform: rotateY(180deg); /* Vira a parte de trás */
 }
