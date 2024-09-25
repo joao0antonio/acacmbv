@@ -18,8 +18,10 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
-    gap: 20px;
+    gap: 20px; /* Espaço entre os cards */
     padding: 20px; /* Espaçamento interno da grade */
+    width: 100%; /* Largura total para melhor alinhamento */
+    max-width: 800px; /* Largura máxima para controle do layout */
 }
 
 .card {
@@ -64,3 +66,4 @@ h1 {
     background-color: #f0f0f0;
     transform: rotateY(180deg); /* Vira a parte de trás */
 }
+a
