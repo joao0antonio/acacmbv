@@ -5,24 +5,28 @@ body {
     height: 100vh;
     background-color: #2c2c2c; /* Cor grafite */
     flex-direction: column;
+    font-family: Arial, sans-serif; /* Fonte mais legível */
 }
 
 h1 {
     color: white; /* Cor do texto do título */
     text-align: center;
     margin-bottom: 20px; /* Espaço abaixo do título */
+    font-size: 2.5rem; /* Tamanho da fonte do título aumentado */
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 300px); /* Aumentado para 300px */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsivo */
     gap: 20px;
+    padding: 20px; /* Espaçamento interno da grade */
 }
 
 .card {
-    width: 300px; /* Aumentado para 300px */
+    width: 100%; /* Preenchendo o espaço disponível */
     height: 150px;
     perspective: 1000px; /* Para efeito 3D */
+    cursor: pointer; /* Indica que é clicável */
 }
 
 .card-inner {
@@ -45,14 +49,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.2rem; /* Tamanho da fonte ajustado */
     text-align: center;
+    border-radius: 8px; /* Bordas arredondadas para ambos os lados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para um leve destaque */
 }
 
 .front {
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 8px;
 }
 
 .back {
