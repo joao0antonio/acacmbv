@@ -3,9 +3,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #2c2c2c; /* Cor grafite */
     flex-direction: column;
     font-family: Arial, sans-serif; /* Fonte mais legível */
+    background: linear-gradient(270deg, #ff7e5f, #feb47b);
+    background-size: 400% 400%; /* Tamanho do fundo para a animação */
+    animation: gradientAnimation 15s ease infinite; /* Animação do fundo */
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 h1 {
@@ -25,7 +33,7 @@ h1 {
 }
 
 .card {
-    width: 500px; /* Aumentado para 500px */
+    width: 500px; /* Largura dos cards */
     height: 150px;
     perspective: 1000px; /* Para efeito 3D */
     cursor: pointer; /* Indica que é clicável */
