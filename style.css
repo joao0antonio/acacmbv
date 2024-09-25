@@ -5,12 +5,12 @@ body {
     height: 100vh;
     flex-direction: column;
     font-family: Arial, sans-serif; /* Fonte mais legível */
-    background: linear-gradient(270deg, #ff7e5f, #feb47b);
+    background: linear-gradient(270deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
     background-size: 400% 400%; /* Tamanho do fundo para a animação */
-    animation: gradientAnimation 15s ease infinite; /* Animação do fundo */
+    animation: rainbowAnimation 10s ease infinite; /* Animação do fundo */
 }
 
-@keyframes gradientAnimation {
+@keyframes rainbowAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
