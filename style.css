@@ -16,12 +16,19 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-h1 {
-    color: white; /* Cor do texto do título */
-    text-align: center;
-    margin-bottom: 20px; /* Espaço abaixo do título */
-    font-size: 2.5rem; /* Tamanho da fonte do título aumentado */
+header {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
 }
+
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    background: linear-gradient(90deg, #ff5733, #ffbd33); /* Degradê de cores quentes */
+    -webkit-background-clip: text; /* Faz o gradiente se aplicar apenas ao texto */
+    -webkit-text-fill-color: transparent; /* Preenche o texto com o gradiente */
+    margin: 0; /* Remove margens padrões */
+}
+
 
 .grid {
     display: grid;
