@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Perguntas Gerais</title>
+    <title>Flash Cards</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Perguntas Gerais</h1>
-        <div class="card" id="flashcard">
-            <div class="question">Qual é a fórmula da área de um círculo?</div>
-            <div class="answer">A = πr², onde r é o raio.</div>
-        </div>
-        <button onclick="toggleCard()">Mostrar Resposta</button>
-        <button onclick="nextCard()">Próximo</button>
+    <h1>Perguntas Gerais</h1>
+    <div class="grid">
+        <div class="card" onclick="flipCard(this)">Qual é a capital da França?<div class="back">Paris</div></div>
+        <div class="card" onclick="flipCard(this)">Quem escreveu 'Dom Casmurro'?<div class="back">Machado de Assis</div></div>
+        <div class="card" onclick="flipCard(this)">Qual é a fórmula da área do círculo?<div class="back">A = πr²</div></div>
+        <div class="card" onclick="flipCard(this)">Quantos continentes existem?<div class="back">7</div></div>
+        <div class="card" onclick="flipCard(this)">Quem foi o primeiro presidente do Brasil?<div class="back">Deodoro da Fonseca</div></div>
+        <div class="card" onclick="flipCard(this)">Qual é a maior floresta do mundo?<div class="back">Amazônica</div></div>
+        <div class="card" onclick="flipCard(this)">Qual é a capital da Espanha?<div class="back">Madri</div></div>
+        <div class="card" onclick="flipCard(this)">Qual é a distância da Terra à Lua?<div class="back">384.400 km</div></div>
     </div>
     <script src="script.js"></script>
 </body>
